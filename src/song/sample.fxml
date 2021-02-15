@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.web.WebView?>
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="song.Controller">
+    <stylesheets>
+        <URL value="@/css/style.css" />
+    </stylesheets>
+
+
+
+
+    <Button text="Listen" GridPane.rowIndex="3" GridPane.columnIndex="1"  onAction="#click"/>
+    <Button text="Pause" GridPane.rowIndex="3" GridPane.columnIndex="0"  onAction="#clickPause"/>
+    <Button text="Stop" GridPane.rowIndex="3" GridPane.columnIndex="2"  onAction="#clickStop"/>
+        <Slider fx:id="volumeSlider" GridPane.rowIndex="5" GridPane.columnIndex="1" onMouseReleased="#click3" />
+
+   
+</GridPane>

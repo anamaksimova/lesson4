@@ -1,0 +1,17 @@
+.root {
+    -fx-font-size: 16;
+
+}
+.button {
+    -fx-background-color: violet;
+}
+.button:hover {
+    -fx-background-color: purple;
+    -fx-font-weight:bold;
+}
+.text-field {
+    -fx-font-weight:bold;
+}
+.label {
+    -fx-font-weight:bold;
+}
